@@ -41,7 +41,7 @@ public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         try {
-            System.out.println("Введите данные: Фамилия Имя Отчество Дата_рождения (формат dd.mm.yyyy) Номер_телефона (без +7) Пол (f/m): ");
+            System.out.println("Введите данные: Фамилия Имя Отчество Дата_рождения (формат dd.mm.yyyy) Номер_телефона (без +7) Пол (f/m)");
             String inputData = scanner.nextLine();
             String[] data = inputData.split(" ");
 
